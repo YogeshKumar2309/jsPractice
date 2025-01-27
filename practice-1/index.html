@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    <h1>Add the list</h1>
+    <div class="btn">
+    <button id="addToBag" onclick="
+       cartQuentity++;
+       console.log(cartQuentity);
+        document.querySelector('#bagItem').innerHTML = `Your Bag had <span>${cartQuentity}</span> items.`
+    ">Add To Bag</button>
+    <button id="move" onclick="
+    cartQuentity--;
+       console.log(cartQuentity);
+        document.querySelector('#bagItem').innerHTML = `Your Bag had <span>${cartQuentity}</span> items.`
+    ">Move to wishlist</button>
+    <button id="addToBag" onclick="
+        cartQuentity += 2;
+        console.log(cartQuentity);
+        document.querySelector('#bagItem').innerHTML = `Your Bag had <span>${cartQuentity}</span> items.`
+    ">Add 1+1 Sale Item</button>
+  </div>
+  <br>
+  <br>
+  <h2 id="bagItem"></h2>
+  </main>
+
+  <script src="script.js"></script>
+ 
+
+
+  
+</body>
+</html>

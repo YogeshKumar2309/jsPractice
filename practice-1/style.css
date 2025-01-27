@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+
+
+}
+
+#addToBag{
+  background-color: lightgreen;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 20px; 
+  text-transform: capitalize;
+
+}
+
+#move{
+  background-color: rgba(142, 180, 142, 0.594);
+  border: none;
+  border-radius: 15px;
+  padding: 8px 24px;
+  font-size: 20px; 
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#bagItem{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#bagItem >span{
+  color: rgba(8, 0, 255, 0.753);
+  margin: 0 8px;
+
+}
